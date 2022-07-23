@@ -13,7 +13,9 @@ export default function Signin() {
     const [password, setPassword] = useState('')
     const [error, setError] = useState('')
 
-    const handleSubmit = event => {
+    const isInvalid = () => !emailAddress || !password
+
+    const handleSignin = event => {
         event.preventDefault()
         
         firebase
@@ -29,10 +31,6 @@ export default function Signin() {
             })
     }
 
-    // todo : add validation
-    const isInvalid = () => !emailAddress || !password
-
-    // check form input validation : email pass
     return (
         <>
             <HeaderContainer>
@@ -40,7 +38,7 @@ export default function Signin() {
                     <Form.Title>Sign In</Form.Title>
                     {error && <Form.Error>{error}</Form.Error>}
 
-                    <Form.Base onSubmit={handleSubmit} method="POST">
+                    <Form.Base onSubmit={handleSignin} method="POST">
                         <Form.Input
                             placeholder="Email address"
                             value={emailAddress}
