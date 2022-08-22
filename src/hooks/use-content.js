@@ -5,15 +5,12 @@ export default function useContent(target) {
     const [content, setContent] = useState([])
     const { firebase } = useContext(FirebaseContext)
 
-    console.log(content);
-
     useEffect(() => {
         firebase
             .firestore()
             .collection(target)
             .get()
             .then(snapshot => {
-                console.log(snapshot.docs);
                 const allContent = snapshot.docs.map(contentObj => ({
                     ...contentObj.data(),
                     docId: contentObj.id // to use as key
