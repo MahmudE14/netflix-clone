@@ -11,13 +11,13 @@ export default function App() {
     <BrowserRouter>
       <Routes>
         <Route exact path={ROUTES.SIGN_IN} element={
-          !user ? <Signin /> : <Navigate to={{ pathname: ROUTES.BROWSE }} />
+          !user.uid ? <Signin /> : <Navigate to={{ pathname: ROUTES.BROWSE }} />
         } />
         <Route exact path={ROUTES.SIGN_UP} element={
-          !user ? <Signup /> : <Navigate to={{ pathname: ROUTES.BROWSE }} />
+          !user.uid ? <Signup /> : <Navigate to={{ pathname: ROUTES.BROWSE }} />
         } />
         <Route exact path={ROUTES.BROWSE} element={
-          user ? <Browse /> : <Navigate to={{ pathname: ROUTES.SIGN_IN, from: Browse }} />
+          user.uid ? <Browse /> : <Navigate to={{ pathname: ROUTES.SIGN_IN, from: Browse }} />
         } />
         <Route exact path={ROUTES.HOME} element={ <Home /> } />
       </Routes>

@@ -17,7 +17,7 @@ export default function Signin() {
 
     const handleSignin = event => {
         event.preventDefault()
-        
+
         firebase
             .auth()
             .signInWithEmailAndPassword(emailAddress, password)
