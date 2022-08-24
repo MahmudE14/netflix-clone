@@ -182,13 +182,6 @@ export const FeatureCallOut = styled.h2`
   margin: 0;
 `;
 
-export const Text = styled.p`
-  color: white;
-  font-size: 22px;
-  line-height: normal;
-  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
-`;
-
 export const Logo = styled.img`
   height: 36px;
   width: 134px;
@@ -216,4 +209,20 @@ export const PlayButton = styled.button`
     background-color: #ff1e1e;
     color: white;
   }
+`;
+
+export const Text = styled.p`
+  color: white;
+  font-size: 22px;
+  line-height: normal;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+`;
+
+export const FeatureCallout = styled.h2`
+  color: white;
+  font-size: 50px;
+  font-weight: bold;
+  line-height: normal;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.45);
+  margin-bottom: 20px;
 `;
