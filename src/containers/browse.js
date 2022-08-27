@@ -1,7 +1,7 @@
 import SelectProfileContainer from "./profiles";
 import { FirebaseContext } from '../context/firebase'
 import { useContext, useEffect, useState } from "react";
-import { Card, Header, Loading } from "../components";
+import { Card, Header, Loading, Player } from "../components";
 import { FooterContainer } from '../containers/footer'
 import * as ROUTES from '../constants/routes'
 import logo from '../logo.svg'
@@ -92,15 +92,15 @@ export default function BrowseContainer({ slides }) {
                                             <Card.SubTitle>{item.title}</Card.SubTitle>
                                             <Card.Text>{item.description}</Card.Text>
                                         </Card.Meta>
-                                        <Card.Feature category={category}>
-                                            {/* <Player>
-                                                <Player.Button />
-                                                <Player.Video src={`/videos/bunny.mp4`} />
-                                            </Player> */}
-                                        </Card.Feature>
                                     </Card.Item>
                                 ))}
                             </Card.Entities>
+                            <Card.Feature category={category}>
+                                <Player>
+                                    <Player.Button />
+                                    <Player.Video src={`/videos/bunny.mp4`} />
+                                </Player>
+                            </Card.Feature>
                         </Card>
                     ))}
                 </Card.Group>
