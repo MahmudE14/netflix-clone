@@ -76,6 +76,7 @@ export const Button = styled.button`
   align-items: center;
   justify-content: center;
   padding-left: 0;
+  border: 0;
 
   &:hover {
     transform: scale(1.05);
