@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Footer /> renders the <Footer /> with populated data 1`] = `
+<div
+  class="footer__Container-sc-eh6b4z-0 dEUDCY"
+>
+  <p
+    class="footer__Title-sc-eh6b4z-4 dLPDHa"
+  >
+    Question? Contact Us.
+  </p>
+  <div
+    class="footer__Break-sc-eh6b4z-6 jiQmMZ"
+  />
+  <div
+    class="footer__Row-sc-eh6b4z-2 cwnnLG"
+  >
+    <div
+      class="footer__Column-sc-eh6b4z-1 dIxCTP"
+    >
+      <a
+        class="footer__Link-sc-eh6b4z-3 fMtVCE"
+        href="#0"
+      >
+        FAQ
+      </a>
+      <a
+        class="footer__Link-sc-eh6b4z-3 fMtVCE"
+        href="#0"
+      >
+        Investor Relations
+      </a>
+      <a
+        class="footer__Link-sc-eh6b4z-3 fMtVCE"
+        href="#0"
+      >
+        Ways to Watch
+      </a>
+      <a
+        class="footer__Link-sc-eh6b4z-3 fMtVCE"
+        href="#0"
+      >
+        Corporate Information
+      </a>
+      <a
+        class="footer__Link-sc-eh6b4z-3 fMtVCE"
+        href="#0"
+      >
+        Netflix Originals
+      </a>
+    </div>
+  </div>
+  <div
+    class="footer__Break-sc-eh6b4z-6 jiQmMZ"
+  />
+  <div
+    class="footer__Text-sc-eh6b4z-5 dsycrP"
+  >
+    Netflix United Kingdom
+  </div>
+</div>
+`;

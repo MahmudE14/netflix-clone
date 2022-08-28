@@ -6,7 +6,7 @@ import faqsData from '../fixtures/faqs.json'
 export function FaqsContainer() {
     return (
         <Accordion>
-            <Accordion.Title>What is Netflix</Accordion.Title>
+            <Accordion.Title>Frequently Asked Questions</Accordion.Title>
             {
                 faqsData.map(item => (
                     <Accordion.Item key={item.id}>
