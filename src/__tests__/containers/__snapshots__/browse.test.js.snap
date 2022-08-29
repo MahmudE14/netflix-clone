@@ -1,0 +1,13 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<BrowseContainer /> renders the loading screen 1`] = `
+<div
+  class="loading__Spinner-sc-1j6l9vs-0 eGAuuN"
+>
+  <img
+    class="loading__Picture-sc-1j6l9vs-1 jOEqss"
+    data-testid="loading-picture"
+    src="/images/users//images/test.png.png"
+  />
+</div>
+`;
