@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Header /> renders the <Header /> with a background 1`] = `
+<div
+  class="header__Background-sc-t8lkk2-0 fmrKPc"
+  data-testid="header-bg"
+>
+  <div
+    class="header__Container-sc-t8lkk2-1 bEDcdp"
+  >
+    <p
+      class="header__Link-sc-t8lkk2-2 dhVuwR"
+    >
+      Hello I am a link!
+    </p>
+  </div>
+</div>
+`;
+
+exports[`<Header /> renders the <Header /> without a background - 1`] = `
+<div
+  class="header__Container-sc-t8lkk2-1 bEDcdp"
+>
+  <p
+    class="header__Link-sc-t8lkk2-2 ehqIHZ"
+  >
+    Hello I am a link!
+  </p>
+</div>
+`;
+
+exports[`<Header /> renders the full <Header /> with a background 1`] = `
+<div
+  class="header__Background-sc-t8lkk2-0 hQpTSC"
+  data-testid="header-bg"
+  src="joker1"
+>
+  <div
+    class="header__Container-sc-t8lkk2-1 bEDcdp"
+  >
+    <div
+      class="header__Group-sc-t8lkk2-3 iHmbZU"
+    >
+      <p
+        class="header__Link-sc-t8lkk2-2 ehqIHZ"
+      >
+        Films
+      </p>
+      <p
+        class="header__Link-sc-t8lkk2-2 ehqIHZ"
+      >
+        Series
+      </p>
+    </div>
+    <div
+      class="header__Group-sc-t8lkk2-3 iHmbZU"
+    >
+      <div
+        class="header__Profile-sc-t8lkk2-10 eyfxCQ"
+      >
+        <div
+          class="header__Search-sc-t8lkk2-5 jldyvg"
+        >
+          <button
+            class="header__SearchIcon-sc-t8lkk2-6 gSYwqV"
+            data-testid="search-click"
+          >
+            <img
+              alt="search"
+              src="/images/icons/search.png"
+            />
+          </button>
+          <input
+            class="header__SearchInput-sc-t8lkk2-4 ctCfef"
+            data-testid="search-input"
+            placeholder="Search films and series"
+            value="Joker"
+          />
+        </div>
+        <button
+          class="header__Picture-sc-t8lkk2-8 kzsGzO"
+          src="/images/users//images/test.png.png"
+        />
+        <div
+          class="header__Dropdown-sc-t8lkk2-9 cGILoT"
+        >
+          <div
+            class="header__Group-sc-t8lkk2-3 iHmbZU"
+          >
+            <button
+              class="header__Picture-sc-t8lkk2-8 kzsGzO"
+              src="/images/users//images/test.png.png"
+            />
+            <p
+              class="header__Link-sc-t8lkk2-2 ehqIHZ"
+            >
+              Usama Mahmud
+            </p>
+          </div>
+          <div
+            class="header__Group-sc-t8lkk2-3 iHmbZU"
+          >
+            <p
+              class="header__Link-sc-t8lkk2-2 ehqIHZ"
+            >
+              Sign Out
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div
+    class="header__Container-sc-t8lkk2-1 header__Feature-sc-t8lkk2-11 bEDcdp cDcyFR"
+  >
+    <h2
+      class="header__FeatureCallout-sc-t8lkk2-16 eSFNff"
+    >
+      Watch Joker Now
+    </h2>
+    <p
+      class="header__Text-sc-t8lkk2-15 hPhqIV"
+    >
+      Forever alone in a crowd, failed comedian Arthur Fleck seeks connection as he walks the streets of Gotham City. Arthur wears two masks -- the one he paints for his day job as a clown, and the guise he projects in a futile attempt to feel like he's part of the world around him.
+    </p>
+    <button
+      class="header__PlayButton-sc-t8lkk2-14 eXvyBX"
+    >
+      Play
+    </button>
+  </div>
+</div>
+`;

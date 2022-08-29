@@ -6,7 +6,7 @@ import { Form } from "../components";
 import { useNavigate } from 'react-router-dom'
 import * as ROUTES from '../constants/routes'
 
-export default function Signup() {
+export default function SignUp() {
     const navigate = useNavigate()
     const { firebase } = useContext(FirebaseContext)
     const [firstName, setFirstName] = useState('')
@@ -16,7 +16,7 @@ export default function Signup() {
 
     const isInvalid = () => !firstName || !emailAddress || !password
 
-    const handleSignup = event => {
+    const handleSignUp = event => {
         event.preventDefault()
         firebase
             .auth()
@@ -41,9 +41,9 @@ export default function Signup() {
             <HeaderContainer>
                 <Form>
                     <Form.Title>Sign In</Form.Title>
-                    {error && <Form.Error>{error}</Form.Error>}
+                    {error && <Form.Error data-testid="error">{error}</Form.Error>}
 
-                    <Form.Base onSubmit={handleSignup} method="POST">
+                    <Form.Base onSubmit={handleSignUp} method="POST">
                         <Form.Input
                             placeholder="First name"
                             value={firstName}
@@ -61,7 +61,7 @@ export default function Signup() {
                             placeholder="Password"
                             onChange={({ target }) => setPassword(target.value)}
                         />
-                        <Form.Submit disabled={isInvalid()} type="submit" data-testid="sign-in">
+                        <Form.Submit disabled={isInvalid()} type="submit" data-testid="sign-up">
                             Sign In
                         </Form.Submit>
                     </Form.Base>

@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`<Profiles /> render the <Profiles /> with populated data 1`] = `
+<div
+  class="profiles__Container-sc-dt3hl3-0 hmvPBF"
+>
+  <h1
+    class="profiles__Title-sc-dt3hl3-1 iOTOox"
+  >
+    Who's watching?
+  </h1>
+  <ul
+    class="profiles__List-sc-dt3hl3-2 jBfPSq"
+  >
+    <li
+      class="profiles__Item-sc-dt3hl3-5 hcrFQg"
+    >
+      <img
+        class="profiles__Picture-sc-dt3hl3-4 dsUSJ"
+        data-testid="profile-picture"
+        src="/images/users//images/ok.png.png"
+      />
+      <p
+        class="profiles__Name-sc-dt3hl3-3 jteIaq"
+      >
+        Usama Mahmud
+      </p>
+    </li>
+  </ul>
+</div>
+`;
+
+exports[`<Profiles /> render the <Profiles /> with populated data but misc profile image 1`] = `
+<div
+  class="profiles__Container-sc-dt3hl3-0 hmvPBF"
+>
+  <h1
+    class="profiles__Title-sc-dt3hl3-1 iOTOox"
+  >
+    Who's watching?
+  </h1>
+  <ul
+    class="profiles__List-sc-dt3hl3-2 jBfPSq"
+  >
+    <li
+      class="profiles__Item-sc-dt3hl3-5 hcrFQg"
+    >
+      <img
+        class="profiles__Picture-sc-dt3hl3-4 dsUSJ"
+        data-testid="profile-picture-misc"
+        src="/images/misc/loading.gif"
+      />
+      <p
+        class="profiles__Name-sc-dt3hl3-3 jteIaq"
+      >
+        Usama Mahmud
+      </p>
+    </li>
+  </ul>
+</div>
+`;
